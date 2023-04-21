@@ -21,4 +21,10 @@ class Database
         notes
     end
 
+    def delete(note)
+        @store.transaction do
+            @store.delete(note.id.to_sym)
+        end
+    end
+
 end
