@@ -72,7 +72,7 @@ class Menu
             end
         rescue Exception => e
             puts "Invalid input".center(50, "-")
+            end
         end
     end
-end
 end
