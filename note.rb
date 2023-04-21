@@ -11,6 +11,11 @@ class Note
 
     def to_s
         "Date: #{@date.strftime("%y-%m-%d %H:%M:%S")} \nNote: #@text"
-        
     end
+
+    def set_text(text)
+        @text = text
+        @date = Time.now
+    end
+
 end
