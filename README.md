@@ -14,7 +14,8 @@ Cada diretório de dia contém o código Ruby correspondente à minha solução 
 Certifique-se de ter Ruby instalado em sua máquina. Navegue até o diretório do dia desejado e execute o script Ruby correspondente:
 
 ```bash
-ruby day1.rb
+cd Day-1
+ruby main.rb
 ```
 
 ## Observações

@@ -1,4 +1,4 @@
-puts 'Day 1'
+puts 'Day-1'
 
 # Part 1
 input = <<~INPUT
@@ -8,7 +8,7 @@ input = <<~INPUT
   treb7uchet
 INPUT
 
-r = File.readlines('lib/Day 1/in.txt').map do |line|
+r = File.readlines('lib/Day-1/input.txt').map do |line|
   digits = line.scan(/\d/)
   (digits.first + digits.last).to_i
 end.sum
@@ -50,7 +50,7 @@ WORD_TO_DIGIT = {
 words = WORD_TO_DIGIT.keys
 r_words = words.map(&:reverse)
 
-r = File.readlines('lib/Day 1/in.txt').map do |line|
+r = File.readlines('lib/Day-1/input.txt').map do |line|
   digits = line.match(/(#{words.join('|')})/, 0)
   first = WORD_TO_DIGIT[digits[0]]
 
