@@ -4,7 +4,9 @@ Este repositório contém minhas soluções para os desafios diários do Advent 
 
 ## Estrutura do Repositório
 
-- [Dia 1](https://github.com/ricardo-benicio/AdventOfCode/issues/5): Contém as soluções para o primeiro dia.
+### Contém os links para cada solução dos dias.
+- [Dia 1](https://gist.github.com/ricardo-benicio/8b411f8f4d90fdcfd5e6f9b85e72e0ff#file-day1-rb);
+- [Dia 2](https://gist.github.com/ricardo-benicio/7e481459a8627622b25ee78d0d6dd8b7#file-day2-rb);
 - Executando...
 
 Cada diretório de dia contém o código Ruby correspondente à minha solução para o desafio específico, nomeado de acordo.
